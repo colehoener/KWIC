@@ -21,10 +21,12 @@ colehoener@gmail.com or cth59@drexel.edu
 2. **input.txt** : This is a sample file that can be used to test the system
 3. **output.txt** : This file is cleared and the results of the last system process are written to this file.
 
-### Known Bugs
+## Known Bugs
 Currently, there are no known bugs for the system.
 
-### Notes
+## Notes
 1. The output formatting is slightly different than the example given in the assignment details document. I change the output due to changing word/sentence sizing and for easier reader.
 2. The output that is alphabatized is alphbatized based on the first word of the '*value*'
 3. If you wish to add more input files, they must be placed in the '*./Input* folder.
+
+*This project may not be copied and used for any graded submission under a new name. All code must be cited to Cole Hoener.*
