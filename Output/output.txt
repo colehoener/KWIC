@@ -1,1 +1,27 @@
- Test text to try out.
+ 		Initial Output 
+
+Key:  
+Value:  KWIC is an acronym for Keyword In Context 
+
+Key:  KWIC is an 
+Value:  acronym for Keyword In Context 
+
+Key:  KWIC is an acronym for 
+Value:  Keyword In Context 
+
+Key:  KWIC is an acronym for Keyword In 
+Value:  Context 
+
+		After Sorting in Alphabetical Order 
+
+Key:  KWIC is an  
+Value:  acronym for Keyword In Context  
+
+Key:  KWIC is an acronym for Keyword In  
+Value:  Context  
+
+Key:  KWIC is an acronym for  
+Value:  Keyword In Context  
+
+Key:   
+Value:  KWIC is an acronym for Keyword In Context 

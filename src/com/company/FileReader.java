@@ -22,7 +22,7 @@ public class FileReader {
 
     public Vector<String> ReadFile(String fileName){
         Vector input = new Vector();
-        fileName =  "./InputText/" + fileName;
+        fileName =  "./Input/" + fileName;
 
         try (java.io.FileReader f = new java.io.FileReader(fileName)) {
             StringBuffer sb = new StringBuffer();
@@ -42,9 +42,9 @@ public class FileReader {
                 input.add(correct);
             }
         } catch (FileNotFoundException e) {
-            System.out.println("Test file not found. Try again or type \"Quit\"");
+            System.out.println("File not found. Please restart the program.");
         } catch (IOException e) {
-            System.out.println("Critical error. Try again or type \"Quit\"");
+            System.out.println("Critical error. Please restart the program.");
         }
 
         return input;
