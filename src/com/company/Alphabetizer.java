@@ -20,7 +20,7 @@ public class Alphabetizer {
 
         Collections.sort(sortedAlphabetical);
 
-        writer.PrintToFile("\n\n\t\tAfter Sorting in Alphabetical Order");
+        writer.PrintToFile("\n\n\n\t\tAfter Sorting in Alphabetical Order");
 
         //Matches alphabetical list and orginal keyvalue pairs
         for(int i = 0; i < sortedAlphabetical.size(); i++){
