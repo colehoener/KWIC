@@ -1,4 +1,4 @@
-# KWIC
+# KWIC Index System
 KWIC (*Keyword In Context*) Index System for SE-311 at Drexel University
 
 ## Author
@@ -27,3 +27,4 @@ Currently, there are no known bugs for the system.
 ### Notes
 1. The output formatting is slightly different than the example given in the assignment details document. I change the output due to changing word/sentence sizing and for easier reader.
 2. The output that is alphabatized is alphbatized based on the first word of the '*value*'
+3. If you wish to add more input files, they must be placed in the '*./Input* folder.
