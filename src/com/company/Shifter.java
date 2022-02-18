@@ -7,15 +7,14 @@ public class Shifter {
 
     }
 
-    public Vector<Vector<String>> Shift(Vector<String> input, Vector<String> stopWords){
+    public Vector<Vector<String>> Shift(Vector<String> input, Vector<String> stopWords, FileWrite writer){
         Vector<Vector<String>> keyValuePair = new Vector<Vector<String>>();
-        FileWrite writer = new FileWrite();
         String key = "";
         String value = "";
         Vector<String> tempKeyValue = new Vector<String>();
 
         //Setup file
-        writer.ClearFile();
+
         writer.PrintToFile("\t\tInitial Output");
 
         //Loop through entire input to shift
@@ -44,8 +43,6 @@ public class Shifter {
                 key = "";
                 value = "";
                 tempKeyValue = new Vector<String>();
-
-
             }
         }
 

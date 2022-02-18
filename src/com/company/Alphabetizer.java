@@ -9,9 +9,8 @@ public class Alphabetizer {
 
     }
 
-    public void Alphabetize(Vector<Vector<String>> keyValuePair){
+    public void Alphabetize(Vector<Vector<String>> keyValuePair, FileWrite writer){
         Vector<String> sortedAlphabetical = new Vector<String>();
-        FileWrite writer = new FileWrite();
 
         //Sort alphabetically
         for(int i = 0; i < keyValuePair.size(); i++){
@@ -34,8 +33,6 @@ public class Alphabetizer {
                     writer.PrintToFile(keyValuePair.elementAt(j).elementAt(1));
                 }
             }
-
         }
-
     }
 }

@@ -1,3 +1,6 @@
+ 
+
+---Line 1---
  		Initial Output 
 
 Key:  
@@ -25,4 +28,28 @@ Key:  KWIC is an acronym for
 Value:  Keyword In Context  
 
 Key:   
-Value:  KWIC is an acronym for Keyword In Context 
+Value:  KWIC is an acronym for Keyword In Context  
+
+---Line 2---
+ 		Initial Output 
+
+Key:  
+Value:  Testing new line 
+
+Key:  Testing 
+Value:  new line 
+
+Key:  Testing new 
+Value:  line 
+
+
+		After Sorting in Alphabetical Order 
+
+Key:  Testing new  
+Value:  line  
+
+Key:  Testing  
+Value:  new line  
+
+Key:   
+Value:  Testing new line 
